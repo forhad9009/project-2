@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head img{
+    width: 100%;
+    position: relative;
+}
+
+.head-title{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    right: 10%;
+    text-align: end;
+}
+
+.head-title h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.head-title p{
+    margin: 10% 0;
+}
+
+.head-title a{
+    text-decoration: none;
+    padding: 3% 5%;
+    background-image:linear-gradient(orangered,red);
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .head-title{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        right: 0;
+        text-align: center;
+    }
+}
