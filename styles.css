@@ -35,10 +35,13 @@
 
 
 @media screen and (max-width: 576px) {
-    
+    .head{
+        width: 100%;
+        position: relative;
+    }
     .head-title{
         position: absolute;
-        top: 50%;
+        top: 100%;
         left: 10%;
         right: 0;
         text-align: center;
